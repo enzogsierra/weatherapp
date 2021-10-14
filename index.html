@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WeatherApp</title>
+
+        <link href="/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>WeatherApp</h1>
+        </header>
+        
+        <div class="container">
+            <div class="location">
+                <h2 class="location-name"></h1>
+                <p class="location-desc"></p>
+            </div>
+
+            <div class="temperature">
+                <div>
+                    <img src="#" type="imagen/jpeg" alt="weather icon" class="temperature-icon"></img>
+                </div>
+                <div class="temperature-info">
+                    <h2><span></span></h2>
+                </div>
+            </div>
+
+            <div class="weather">
+                <p class="weather-windspeed"></p>
+                <p class="weather-humidity"></p>
+                <p class="weather-feelslike"></p>
+                <p class="weather-visibility"></p>
+            </div>
+
+            <div class="search">
+                <input class="search-bar" type="text" placeholder="Type your location">
+                <svg class="search-bar-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.172 24l-7.387-7.387c-1.388.874-3.024 1.387-4.785 1.387-4.971 0-9-4.029-9-9s4.029-9 9-9 9 4.029 9 9c0 1.761-.514 3.398-1.387 4.785l7.387 7.387-2.828 2.828zm-12.172-8c3.859 0 7-3.14 7-7s-3.141-7-7-7-7 3.14-7 7 3.141 7 7 7z"/></svg>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
